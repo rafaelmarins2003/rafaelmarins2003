@@ -1,14 +1,3 @@
-<!--
-  ======================================================================
-  Profile README  ·  rafaelmarins2003
-  Commit banner.svg to:  assets/banner.svg   (path used below)
-  Flagged lines you can cut in one edit:
-    - "Currently: Chief AI Engineer @ Vertere AI"  (whoami block)
-    - "Open to opportunities (EU / remote ...)"     (contact block)
-    - The "Activity" section (github-readme-stats)  (optional)
-  ======================================================================
--->
-
 <div align="center">
   <img src="./assets/banner.svg" width="100%" alt="Rafael Marins Florenzano — AI & Data Engineer" />
 </div>
@@ -91,7 +80,7 @@ $ current_stack --main
 
 | **AI / LLM** | **Data** | **Backend / Infra** |
 | :-- | :-- | :-- |
-| `RAG` `LLM Orchestration` `Structured Generation` `Post-training (SFT/GRPO)` `Evaluation` `LangGraph` `Qdrant` `BGE-M3` `Neo4j` | `Airflow` `dbt` `Airbyte` `ClickHouse` `PostgreSQL` `Oracle` | `Python` `Rust` `FastAPI` `Docker` `Linux` `WireGuard` `AWS` `Git` |
+| `RAG` `LLM Orchestration` `Structured Generation` `Post-training (SFT/GRPO)` `Evaluation` `LangGraph` `Qdrant` `Weaviate` `BGE-M3` `Neo4j` `CUDA` `XGrammar` `Pydantic AI` `Outlines` | `Airflow` `dbt` `Airbyte` `ClickHouse` `PostgreSQL` `Oracle DB` `Redis` `SQL Server` `RPA` | `Python` `C++` `Rust` `FastAPI` `Flask` `Docker` `Linux` `WireGuard` `AWS` `GCP` `Git` `SDKs`|
 
 ---
 
@@ -129,7 +118,7 @@ I am exploring how LLMs can generate process models more reliably using compact 
 
 ```
 $ contact --status
-open: AI engineering · data systems · applied research · production automation
+open: AI engineering · data systems · AI Research · production automation
 ```
 
 Open to opportunities (EU / remote, Italian citizen) and to conversations about the above.
