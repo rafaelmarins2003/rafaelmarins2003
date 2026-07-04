@@ -1,95 +1,104 @@
-<svg viewBox="0 0 1280 340" width="1280" height="340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rafael Marins Florenzano, AI and Data Engineer">
+<svg viewBox="0 0 1280 400" width="1280" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rafael Marins Florenzano — AI and Data Engineer">
   <title>Rafael Marins Florenzano — AI &amp; Data Engineer</title>
-  <desc>Dark terminal-style banner with parchment and gold typography and a geometric gold caduceus sigil.</desc>
+  <desc>A BPMN process diagram: start event flows into a task named Rafael Marins Florenzano, through a parallel gateway into AI Systems, Data Platforms and Research, converging on an end event.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0C0D10"/>
-      <stop offset="1" stop-color="#08090B"/>
-    </linearGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ECCF86"/>
-      <stop offset="0.5" stop-color="#D8B25A"/>
-      <stop offset="1" stop-color="#9C7F3C"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#D8B25A" stop-opacity="0.26"/>
-      <stop offset="1" stop-color="#D8B25A" stop-opacity="0"/>
+    <pattern id="dotgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1.2" fill="#223046"/>
+    </pattern>
+    <radialGradient id="warmglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF6A3D" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#FF6A3D" stop-opacity="0"/>
     </radialGradient>
-    <clipPath id="card"><rect x="2" y="2" width="1276" height="336" rx="20"/></clipPath>
+    <clipPath id="frame"><rect x="1" y="1" width="1278" height="398" rx="20"/></clipPath>
   </defs>
+  <style>
+    .flow { stroke:#FF6A3D; stroke-width:2; fill:none; stroke-dasharray:5 9; stroke-linecap:round;
+            animation:flow 1.4s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset:-28; } }
+    .pulse { animation:pulse 2.8s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:.12;} 50%{opacity:.45;} }
+    @media (prefers-reduced-motion: reduce) { .flow, .pulse { animation:none; } }
+  </style>
 
-  <rect x="2" y="2" width="1276" height="336" rx="20" fill="url(#bg)" stroke="#262A31" stroke-width="1"/>
-
-  <g clip-path="url(#card)">
-    <circle cx="1088" cy="170" r="150" fill="url(#glow)"/>
-    <rect x="0" y="2" width="150" height="2" fill="#D8B25A" opacity="0">
-      <animate attributeName="opacity" values="0;0.5;0.5;0" dur="7s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" from="20 0" to="1130 0" dur="7s" repeatCount="indefinite"/>
-    </rect>
+  <rect x="1" y="1" width="1278" height="398" rx="20" fill="#0A0F1C" stroke="#1C2637" stroke-width="1.5"/>
+  <g clip-path="url(#frame)">
+    <rect x="1" y="1" width="1278" height="398" fill="url(#dotgrid)"/>
+    <ellipse cx="450" cy="204" rx="340" ry="140" fill="url(#warmglow)"/>
   </g>
 
-  <text x="64" y="100" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" letter-spacing="0.5">
-    <tspan fill="#D8B25A">❯ </tspan><tspan fill="#ECE7DB">whoami</tspan><tspan fill="#8B919C"> --verbose</tspan><tspan fill="#D8B25A"> █<animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></tspan>
+  <!-- opening tag -->
+  <text x="56" y="62" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" letter-spacing="0.3">
+    <tspan fill="#5E6C82">&lt;bpmn:process </tspan><tspan fill="#93A1B5">id=</tspan><tspan fill="#FF6A3D">"rafael.marins"</tspan><tspan fill="#93A1B5"> isExecutable=</tspan><tspan fill="#FF6A3D">"true"</tspan><tspan fill="#5E6C82">&gt;</tspan>
   </text>
 
-  <rect x="64" y="120" width="4" height="104" rx="2" fill="url(#gold)"/>
-
-  <text x="86" y="152" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#ECE7DB" letter-spacing="0.4">Rafael Marins Florenzano</text>
-
-  <text x="88" y="186" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="600" fill="#D8B25A" letter-spacing="3.5">AI &amp; DATA ENGINEER</text>
-
-  <text x="88" y="216" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#9CA3AD">Building AI systems that survive contact with production.</text>
-
-  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="0.6">
-    <rect x="86" y="244" width="62" height="26" rx="13" fill="#131519" stroke="#2E333B"/>
-    <circle cx="100" cy="257" r="2.5" fill="#D8B25A"/>
-    <text x="110" y="261" fill="#C9CDD4">RAG</text>
-
-    <rect x="156" y="244" width="142" height="26" rx="13" fill="#131519" stroke="#2E333B"/>
-    <circle cx="170" cy="257" r="2.5" fill="#D8B25A"/>
-    <text x="180" y="261" fill="#C9CDD4">POST-TRAINING</text>
-
-    <rect x="306" y="244" width="106" height="26" rx="13" fill="#131519" stroke="#2E333B"/>
-    <circle cx="320" cy="257" r="2.5" fill="#D8B25A"/>
-    <text x="330" y="261" fill="#C9CDD4">DATA INFRA</text>
-
-    <rect x="420" y="244" width="116" height="26" rx="13" fill="#131519" stroke="#2E333B"/>
-    <circle cx="434" cy="257" r="2.5" fill="#D8B25A"/>
-    <text x="444" y="261" fill="#C9CDD4">BPMN · DSLs</text>
+  <!-- base edges (orthogonal, BPMN-style) -->
+  <g stroke="#3A4A63" stroke-width="2" fill="none">
+    <path d="M121,204 H162"/>
+    <path d="M731,204 H774"/>
+    <path d="M812,174 V120 H908"/>
+    <path d="M842,204 H908"/>
+    <path d="M812,234 V288 H908"/>
+    <path d="M1172,120 H1196 V204"/>
+    <path d="M1172,288 H1196 V204"/>
+    <path d="M1172,204 H1199"/>
+  </g>
+  <!-- animated token flow -->
+  <g>
+    <path class="flow" d="M121,204 H162"/>
+    <path class="flow" d="M731,204 H774"/>
+    <path class="flow" d="M812,174 V120 H908"/>
+    <path class="flow" d="M842,204 H908"/>
+    <path class="flow" d="M812,234 V288 H908"/>
+    <path class="flow" d="M1172,120 H1196 V204 H1199"/>
+    <path class="flow" d="M1172,288 H1196 V204 H1199"/>
+    <path class="flow" d="M1172,204 H1199"/>
+  </g>
+  <!-- arrowheads -->
+  <g fill="#3A4A63">
+    <polygon points="170,204 160,199 160,209"/>
+    <polygon points="782,204 772,199 772,209"/>
+    <polygon points="916,120 906,115 906,125"/>
+    <polygon points="916,204 906,199 906,209"/>
+    <polygon points="916,288 906,283 906,293"/>
+    <polygon points="1207,204 1197,199 1197,209"/>
   </g>
 
-  <text x="1216" y="306" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#5C626C">github.com/rafaelmarins2003</text>
+  <!-- start event -->
+  <circle class="pulse" cx="104" cy="204" r="26" fill="none" stroke="#FF6A3D" stroke-width="1.5"/>
+  <circle cx="104" cy="204" r="17" fill="#101828" stroke="#93A1B5" stroke-width="2"/>
+  <circle cx="104" cy="204" r="4.5" fill="#FF6A3D"/>
 
-  <g stroke-linecap="round" fill="none">
-    <circle cx="1088" cy="170" r="92" stroke="#2E333B" stroke-width="1.2"/>
-    <circle cx="1088" cy="106" r="16" fill="#D8B25A" stroke="none" opacity="0.2">
-      <animate attributeName="opacity" values="0.12;0.34;0.12" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
-    <line x1="1088" y1="112" x2="1088" y2="240" stroke="url(#gold)" stroke-width="2.2"/>
-    <circle cx="1088" cy="106" r="5.5" fill="#ECCF86" stroke="none"/>
-    <line x1="1076" y1="240" x2="1100" y2="240" stroke="#D8B25A" stroke-width="2"/>
+  <!-- main task: the name -->
+  <rect x="170" y="142" width="560" height="124" rx="16" fill="#101828" stroke="#3A4A63" stroke-width="1.5"/>
+  <text x="450" y="201" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="33" font-weight="800" fill="#EDF2F9" letter-spacing="1">RAFAEL MARINS FLORENZANO</text>
+  <text x="450" y="236" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#FF6A3D" letter-spacing="5">AI &amp; DATA ENGINEER</text>
 
-    <g stroke="#D8B25A" stroke-width="1.6">
-      <path d="M1084,124 Q1050,108 1018,118"/>
-      <path d="M1084,132 Q1044,121 1006,134"/>
-      <path d="M1084,140 Q1048,135 1014,150"/>
-    </g>
-    <g stroke="#D8B25A" stroke-width="1.6">
-      <path d="M1092,124 Q1126,108 1158,118"/>
-      <path d="M1092,132 Q1132,121 1170,134"/>
-      <path d="M1092,140 Q1128,135 1162,150"/>
-    </g>
-
-    <g fill="#ECCF86" stroke="none">
-      <circle cx="1018" cy="118" r="2"/><circle cx="1006" cy="134" r="2"/><circle cx="1014" cy="150" r="2"/>
-      <circle cx="1158" cy="118" r="2"/><circle cx="1170" cy="134" r="2"/><circle cx="1162" cy="150" r="2"/>
-    </g>
-
-    <g stroke="#D8B25A" stroke-width="1.6">
-      <path d="M1088,150 C1114,166 1062,184 1088,200 C1114,216 1062,234 1088,240"/>
-      <path d="M1088,150 C1062,166 1114,184 1088,200 C1062,216 1114,234 1088,240"/>
-    </g>
-    <g fill="#D8B25A" stroke="none"><circle cx="1088" cy="150" r="2.4"/></g>
-    <g fill="#ECCF86" stroke="none"><circle cx="1088" cy="200" r="2"/></g>
+  <!-- parallel gateway -->
+  <polygon points="812,174 842,204 812,234 782,204" fill="#101828" stroke="#3A4A63" stroke-width="1.5"/>
+  <g stroke="#FF6A3D" stroke-width="2.4" stroke-linecap="round">
+    <line x1="812" y1="193" x2="812" y2="215"/>
+    <line x1="801" y1="204" x2="823" y2="204"/>
   </g>
+
+  <!-- track nodes -->
+  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
+    <rect x="920" y="92" width="252" height="56" rx="10" fill="#101828" stroke="#3A4A63" stroke-width="1.5"/>
+    <text x="946" y="117" font-size="15" font-weight="700" fill="#EDF2F9" letter-spacing="1">AI SYSTEMS</text>
+    <text x="946" y="136" font-size="11.5" fill="#93A1B5">llm · rag · agents · eval</text>
+
+    <rect x="920" y="176" width="252" height="56" rx="10" fill="#101828" stroke="#3A4A63" stroke-width="1.5"/>
+    <text x="946" y="201" font-size="15" font-weight="700" fill="#EDF2F9" letter-spacing="1">DATA PLATFORMS</text>
+    <text x="946" y="220" font-size="11.5" fill="#93A1B5">clickhouse · airflow · dbt</text>
+
+    <rect x="920" y="260" width="252" height="56" rx="10" fill="#101828" stroke="#3A4A63" stroke-width="1.5"/>
+    <text x="946" y="285" font-size="15" font-weight="700" fill="#EDF2F9" letter-spacing="1">RESEARCH</text>
+    <text x="946" y="304" font-size="11.5" fill="#93A1B5">post-training · dsl · bpmn</text>
+  </g>
+
+  <!-- end event (thick border) -->
+  <circle cx="1226" cy="204" r="17" fill="#101828" stroke="#FF6A3D" stroke-width="4"/>
+
+  <!-- closing tag + footer -->
+  <text x="56" y="364" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="14" fill="#5E6C82">&lt;/bpmn:process&gt;</text>
+  <text x="1224" y="364" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#5E6C82">fortaleza, br · sr. ai engineer @ vertere ai · comp. eng @ unifor</text>
 </svg>

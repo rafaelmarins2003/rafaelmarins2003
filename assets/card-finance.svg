@@ -1,0 +1,27 @@
+<svg viewBox="0 0 640 200" width="640" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="multiagent-finance — multi-agent LLM debate for portfolio analysis">
+  <title>multiagent-finance</title>
+  <rect x="1" y="1" width="638" height="198" rx="16" fill="#0A0F1C" stroke="#1C2637" stroke-width="1.5"/>
+
+  <!-- BPMN parallel gateway glyph -->
+  <rect x="36" y="52" width="96" height="96" rx="14" fill="#101828" stroke="#3A4A63" stroke-width="1.5"/>
+  <g fill="none" stroke="#FF6A3D" stroke-width="2">
+    <polygon points="84,72 112,100 84,128 56,100"/>
+    <line x1="84" y1="89" x2="84" y2="111"/>
+    <line x1="73" y1="100" x2="95" y2="100"/>
+  </g>
+
+  <text x="164" y="78" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#EDF2F9">multiagent-finance</text>
+  <g font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#93A1B5">
+    <text x="164" y="106">Multi-agent LLM debate for portfolio analysis, </text>
+    <text x="164" y="126">agents argue, critique, and converge.</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12">
+    <rect x="164" y="148" width="128" height="26" rx="13" fill="#0D1523" stroke="#2A374B"/>
+    <text x="228" y="165" text-anchor="middle" fill="#FF6A3D">research paper</text>
+    <rect x="300" y="148" width="106" height="26" rx="13" fill="#0D1523" stroke="#2A374B"/>
+    <text x="353" y="165" text-anchor="middle" fill="#93A1B5">multi-agent</text>
+    <rect x="414" y="148" width="140" height="26" rx="13" fill="#0D1523" stroke="#2A374B"/>
+    <text x="484" y="165" text-anchor="middle" fill="#93A1B5">cost accounting</text>
+  </g>
+</svg>

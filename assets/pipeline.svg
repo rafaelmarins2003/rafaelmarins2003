@@ -1,0 +1,53 @@
+<svg viewBox="0 0 1280 140" width="1280" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thesis pipeline: natural language to BPMN-DSL (90% fewer tokens) to Rust transpiler to XSD-valid BPMN 2.0">
+  <title>Thesis — semantic compression pipeline</title>
+  <style>
+    .flow { stroke:#FF6A3D; stroke-width:2; fill:none; stroke-dasharray:5 9; stroke-linecap:round;
+            animation:flow 1.4s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset:-28; } }
+    @media (prefers-reduced-motion: reduce) { .flow { animation:none; } }
+  </style>
+  <defs>
+    <pattern id="dotgrid-p" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1.2" fill="#223046"/>
+    </pattern>
+    <clipPath id="frame-p"><rect x="1" y="1" width="1278" height="138" rx="16"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1278" height="138" rx="16" fill="#0A0F1C" stroke="#1C2637" stroke-width="1.5"/>
+  <g clip-path="url(#frame-p)"><rect x="1" y="1" width="1278" height="138" fill="url(#dotgrid-p)"/></g>
+
+  <text x="40" y="38" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13">
+    <tspan fill="#5E6C82">&lt;bpmn:subProcess </tspan><tspan fill="#93A1B5">id=</tspan><tspan fill="#FF6A3D">"thesis"</tspan><tspan fill="#5E6C82"> /&gt;</tspan>
+  </text>
+  <text x="1240" y="38" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" fill="#5E6C82">semantic-compression-tcc →</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15">
+    <!-- natural language -->
+    <rect x="136" y="66" width="180" height="40" rx="10" fill="#101828" stroke="#3A4A63" stroke-width="1.5"/>
+    <text x="226" y="91" text-anchor="middle" fill="#EDF2F9">natural language</text>
+
+    <path d="M320,86 H372" stroke="#3A4A63" stroke-width="2"/>
+    <path class="flow" d="M320,86 H372"/>
+    <polygon points="380,86 370,81 370,91" fill="#3A4A63"/>
+
+    <!-- DSL -->
+    <rect x="384" y="66" width="240" height="40" rx="10" fill="#101828" stroke="#FF6A3D" stroke-width="1.6"/>
+    <text x="504" y="91" text-anchor="middle" xml:space="preserve"><tspan fill="#EDF2F9">BPMN-DSL</tspan><tspan fill="#5E6C82"> · </tspan><tspan fill="#FF6A3D">−90% tokens</tspan></text>
+
+    <path d="M628,86 H680" stroke="#3A4A63" stroke-width="2"/>
+    <path class="flow" d="M628,86 H680"/>
+    <polygon points="688,86 678,81 678,91" fill="#3A4A63"/>
+
+    <!-- transpiler -->
+    <rect x="692" y="66" width="176" height="40" rx="10" fill="#101828" stroke="#3A4A63" stroke-width="1.5"/>
+    <text x="780" y="91" text-anchor="middle" fill="#EDF2F9">rust transpiler</text>
+
+    <path d="M872,86 H924" stroke="#3A4A63" stroke-width="2"/>
+    <path class="flow" d="M872,86 H924"/>
+    <polygon points="932,86 922,81 922,91" fill="#3A4A63"/>
+
+    <!-- output -->
+    <rect x="936" y="66" width="220" height="40" rx="10" fill="#101828" stroke="#3A4A63" stroke-width="1.5"/>
+    <text x="1046" y="91" text-anchor="middle" xml:space="preserve"><tspan fill="#EDF2F9">BPMN 2.0 </tspan><tspan fill="#FF6A3D">✓</tspan><tspan fill="#93A1B5"> xsd-valid</tspan></text>
+  </g>
+</svg>

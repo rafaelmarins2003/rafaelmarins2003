@@ -1,0 +1,27 @@
+<svg viewBox="0 0 640 200" width="640" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="bec_detection — LLM detection of Business Email Compromise mapped to CyBOK">
+  <title>bec_detection</title>
+  <rect x="1" y="1" width="638" height="198" rx="16" fill="#0A0F1C" stroke="#1C2637" stroke-width="1.5"/>
+
+  <!-- BPMN message event glyph -->
+  <rect x="36" y="52" width="96" height="96" rx="14" fill="#101828" stroke="#3A4A63" stroke-width="1.5"/>
+  <g fill="none" stroke="#FF6A3D" stroke-width="2">
+    <circle cx="84" cy="100" r="28"/>
+    <rect x="70" y="91" width="28" height="19" rx="2"/>
+    <polyline points="70,93 84,102 98,93"/>
+  </g>
+
+  <text x="164" y="78" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#EDF2F9">bec_detection</text>
+  <g font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#93A1B5">
+    <text x="164" y="106">LLM detection of Business Email Compromise,</text>
+    <text x="164" y="126">mapped to CyBOK knowledge areas.</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12">
+    <rect x="164" y="148" width="72" height="26" rx="13" fill="#0D1523" stroke="#2A374B"/>
+    <text x="200" y="165" text-anchor="middle" fill="#93A1B5">Python</text>
+    <rect x="244" y="148" width="88" height="26" rx="13" fill="#0D1523" stroke="#2A374B"/>
+    <text x="288" y="165" text-anchor="middle" fill="#FF6A3D">security</text>
+    <rect x="340" y="148" width="66" height="26" rx="13" fill="#0D1523" stroke="#2A374B"/>
+    <text x="373" y="165" text-anchor="middle" fill="#93A1B5">CyBOK</text>
+  </g>
+</svg>
