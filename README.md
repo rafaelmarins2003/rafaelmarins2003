@@ -45,7 +45,7 @@
 </table>
 
 <p align="center">
-  <sub><code>Python</code> · <code>C++</code> · <code>C++</code> · <code>pydantic-ai</code> · <code>LangGraph</code> · <code>Qdrant</code> · <code>ClickHouse</code> · <code>Airflow</code> · <code>dbt</code> · <code>PostgreSQL</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code></sub>
+  <sub><code>Python</code> · <code>Rust</code> · <code>C++</code> · <code>pydantic-ai</code> · <code>LangGraph</code> · <code>Qdrant</code> · <code>ClickHouse</code> · <code>Airflow</code> · <code>dbt</code> · <code>PostgreSQL</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code></sub>
 </p>
 
 <div align="center"><sub><code>&lt;/bpmn:definitions&gt;</code></sub></div>
