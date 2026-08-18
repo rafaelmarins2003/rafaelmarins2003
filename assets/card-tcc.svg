@@ -21,7 +21,7 @@
     <rect x="164" y="148" width="72" height="26" rx="13" fill="#0D1523" stroke="#2A374B"/>
     <text x="200" y="165" text-anchor="middle" fill="#93A1B5">Python</text>
     <rect x="244" y="148" width="58" height="26" rx="13" fill="#0D1523" stroke="#2A374B"/>
-    <text x="273" y="165" text-anchor="middle" fill="#93A1B5">Rust</text>
+    <text x="273" y="165" text-anchor="middle" fill="#93A1B5">C++</text>
     <rect x="310" y="148" width="112" height="26" rx="13" fill="#0D1523" stroke="#2A374B"/>
     <text x="366" y="165" text-anchor="middle" fill="#FF6A3D">−90% tokens</text>
   </g>

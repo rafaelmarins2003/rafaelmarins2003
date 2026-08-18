@@ -14,14 +14,14 @@
 </p>
 
 <a href="https://github.com/rafaelmarins2003/semantic-compression-tcc">
-  <img src="./assets/pipeline.svg" width="100%" alt="Thesis pipeline: natural language → BPMN-DSL (−90% tokens) → Rust transpiler → XSD-valid BPMN 2.0" />
+  <img src="./assets/pipeline.svg" width="100%" alt="Thesis pipeline: natural language → BPMN-DSL (−90% tokens) → C++ transpiler → XSD-valid BPMN 2.0" />
 </a>
 
 <table>
   <tr>
     <td width="50%">
       <a href="https://github.com/rafaelmarins2003/semantic-compression-tcc">
-        <img src="./assets/card-tcc.svg" width="100%" alt="semantic-compression-tcc — natural language to compact DSL to deterministic, XSD-valid BPMN 2.0. SFT + GRPO. Python, Rust, −90% tokens." />
+        <img src="./assets/card-tcc.svg" width="100%" alt="semantic-compression-tcc — natural language to compact DSL to deterministic, XSD-valid BPMN 2.0. SFT + GRPO. Python, C++, −90% tokens." />
       </a>
     </td>
     <td width="50%">
@@ -45,7 +45,7 @@
 </table>
 
 <p align="center">
-  <sub><code>Python</code> · <code>Rust</code> · <code>C++</code> · <code>pydantic-ai</code> · <code>LangGraph</code> · <code>Qdrant</code> · <code>ClickHouse</code> · <code>Airflow</code> · <code>dbt</code> · <code>PostgreSQL</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code></sub>
+  <sub><code>Python</code> · <code>C++</code> · <code>C++</code> · <code>pydantic-ai</code> · <code>LangGraph</code> · <code>Qdrant</code> · <code>ClickHouse</code> · <code>Airflow</code> · <code>dbt</code> · <code>PostgreSQL</code> · <code>Docker</code> · <code>AWS</code> · <code>GCP</code></sub>
 </p>
 
 <div align="center"><sub><code>&lt;/bpmn:definitions&gt;</code></sub></div>
